@@ -1,0 +1,23 @@
+Database store and organise data
+
+Data is housed in objects called tables organised into row and columns
+
+SQL is short for Structured Query Language
+
+A table hold related data about a particulr object
+
+A column is referred to as a field - It holds one piece of information about all observations in the table.
+
+A row is referred to as a record - It holds data on an individual observation. 
+
+A table colums are limited to those set when the database was created, but the number of rows is unlimited.
+
+In programming, a "string" refers to a sequence of characters such as letters or punctuation.
+
+Integer data types store whole numbers, such as the years in the member_year column of the patrons table. 
+
+Float data types store numbers that include a fractional part, such as the 2-point-05 dollars.
+
+Schemas are often referred to as "blueprints" of databases. A schema shows a databases design, such as what tables are included in the database and any relationships between its tables. 
+
+ Servers are centralized computers that perform services via requests made over a network.

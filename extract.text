@@ -1,0 +1,7 @@
+key word are reserved words used to indicate what operations we would like to perform.
+
+SELECT indicates which fields should be located
+
+FROM indicates the table in which these field are located
+
+A view is a virtual yable that is the result of a saved SQL SELECT statement
