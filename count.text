@@ -1,0 +1,19 @@
+Let's say we wanted to count something from our people table. The COUNT function lets us do this by returning the number of records with a value in a field. 
+
+COUNT() counts the number of value in a field
+
+SELECT COUNT(birthdate) AS count_birthdates
+FROM people;
+
+However, if we want to count the number of records in a table, we can call COUNT with an asterisk. 
+
+SELECT COUNT(*) AS count_film_id
+FROM reviews;
+
+SELECT COUNT(film_id) AS count_film_id
+FROM reviews;
+
+If we want to count more than one field, we need to use COUNT multiple times. Here we are counting both the number of names and birth dates present in the people table.
+
+SELECT COUNT(language) AS count_languages, COUNT(country) AS count_countries
+FROM films;
