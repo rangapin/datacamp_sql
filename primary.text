@@ -1,0 +1,7 @@
+A primary key is an unique identifier for a record it cannot be repeated.
+
+A foreign key is a reference to a primary key from another table.
+
+Both form the relation for our database.
+
+Unsigned (cannot be negative)
